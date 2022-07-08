@@ -1,13 +1,29 @@
+h1 {
+  color: Azure;
+  font-weight: bold;
+  font-family: "Copperplate";
+  font-size: 60px
+}
+
 body {
-  background-color: lightblue;
-  margin: 50px;
-  font-family: fantasy;
+  background-color: CadetBlue;
+  margin: 70px;
+  font-family: Monaco;
+  font-size: 10px;
 }
 .mypara{
-  color: crimson;
+  color: HoneyDew;
   font-family: fantasy;
-  font-size: 22px
+  font-size: 23px;
 }
+
+.mylink{
+  color: Ivory;
+  font-family: fantasy;
+  font-size: 22px;
+}
+
 .lst{
-  font-size: 25px
+  font-size: 19px;
+  color: LavenderBlush;
 }
