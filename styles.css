@@ -1,8 +1,8 @@
 h1 {
   color: Azure;
   font-weight: bold;
-  font-family: "Copperplate";
-  font-size: 60px
+  font-family: Bradley Hand, cursive;
+  font-size: 70px
 }
 
 body {
@@ -14,13 +14,19 @@ body {
 .mypara{
   color: HoneyDew;
   font-family: fantasy;
-  font-size: 23px;
+  font-size: 30px;
+}
+
+.caption{
+  font-size: 20px;
+  font-family: Chalkduster, fantasy;
+  color: LavenderBlush
 }
 
 .mylink{
   color: Ivory;
   font-family: fantasy;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .lst{
