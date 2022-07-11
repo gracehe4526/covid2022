@@ -7,33 +7,33 @@
   </head>
   <body>
     <h1>Grace's Homepage</h1>
-    <a class="mylink" href="https://www.marvel.com/">Marvel Website</a>
-    <br>
-    <img id="myimg" src="cap.gif" alt="Captain America is the best!" height="400px">
-    <br>
     <p class="mypara">Below is a list of my favourite superheroes. Try clicking on their names!</p>
-
+    <img id="myimg" src="cap.gif" alt="Captain America is the best!" height="400px">
+    <p id='myinfo'; class="caption"><b>The FIRST Avenger! THE BEST!</b></p>
     <ol class='lst'>
       <li>
-        <a href="#" onclick="setimg('cap.gif')">Captain America</a>
+        <a href="#" onclick="setimg('cap.gif', 'The FIRST Avenger! THE BEST!')">Captain America</a>
       </li>
       <li>
-        <a href="#" onclick="setimg('bbgroot.gif')">Groot</a>
+        <a href="#" onclick="setimg('bbgroot.gif', 'A SUPER cute tree... I AM GROOT!')">Groot</a>
       </li>
       <li>
-        <a href="#" onclick="setimg('wanda.gif')">Wanda</a>
+        <a href="#" onclick="setimg('wanda.gif','UGHHH SLAYYYY powerful scarlet witch')">Wanda</a>
       </li>
       <li>
-        <a href="#" onclick="setimg('spidey.gif')">Spider-man</a>
+        <a href="#" onclick="setimg('spidey.gif', 'Teenager named Peter Parker who shoots web out of his wrist')">Spider-man</a>
       </li>
       <li>
-        <a href="#" onclick="setimg('antman.gif')">Antman</a>
+        <a href="#" onclick="setimg('antman.gif','Very smol little guy, very funny too! He loves orange slices.')">Antman</a>
       </li>
     </ol>
   </body>
   <script type="text/javascript">
-    function setimg(imgname) {
+    function setimg(imgname, description) {
       document.getElementById('myimg').src = imgname;
+      var newtext = "<b><span>" + description + "</span></b>"
+      document.getElementById('myinfo').innerHTML = newtext;
     }
   </script>
+  <a class="mylink" href="https://www.marvel.com/">Click here to learn more about Marvel</a>
 </html>
